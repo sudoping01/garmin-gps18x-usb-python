@@ -1,0 +1,1 @@
+SUBSYSTEMS=="usb", KERNEL=="ttyUSB[0-9]*", ACTION=="add", ATTRS{idVendor}=="091e", ATTRS{idProduct}=="0003" MODE="666", SYMLINK+="sensors/garmin_gps", GROUP="plugdev"
